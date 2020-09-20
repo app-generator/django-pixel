@@ -1,79 +1,79 @@
+<!--
+
+=========================================================
+* Pixel Lite Bootstrap Design System
+=========================================================
+
+* Product Page: https://themesberg.com/product/ui-kits/pixel-lite-free-bootstrap-4-ui-kit
+* Copyright 2019 Themesberg (https://www.themesberg.com)
+* License Themesberg (Crafty Dwarf LLC) (https://themesberg.com/licensing)
+
+* Coded by https://themesberg.com
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+-->
 <!DOCTYPE html>
 <html lang="en">
-<head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="Webpixels">
-    <title>
-        Django Boilerplate Code - {% block title %}{% endblock %} | AppSeed
-    </title>
+<head> 
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- Primary Meta Tags -->
+<title>
+    Django Pixel Lite  - {% block title %}{% endblock %} | AppSeed
+</title>
 
-    <!-- Preloader -->
-    <style>
-        @keyframes hidePreloader {
-            0% {
-                width: 100%;
-                height: 100%;
-            }
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="title" content="Pixel Lite - Free Bootstrap 4 UI Kit">
+<meta name="author" content="Themesberg">
+<meta name="description" content="Open source and accessibility first Bootstrap Design System featuring over 80 premium components and 4 example pages.">
+<meta name="keywords" content="bootstrap, Bootstrap Design System, accessiblity, accessibility first, open source, open source Bootstrap Design System" />
+<link rel="canonical" href="https://themesberg.com/product/ui-kits/pixel-lite-free-bootstrap-4-ui-kit">
 
-            100% {
-                width: 0;
-                height: 0;
-            }
-        }
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://demo.themesberg.com/pixel-lite">
+<meta property="og:title" content="Pixel Lite - Free Bootstrap 4 UI Kit">
+<meta property="og:description" content="Open source and accessibility oriented Bootstrap Design System featuring over 80 premium components and 4 example pages.">
+<meta property="og:image" content="https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/pixel-lite-preview.jpg">
 
-        body>div.preloader {
-            position: fixed;
-            background: white;
-            width: 100%;
-            height: 100%;
-            z-index: 1071;
-            opacity: 0;
-            transition: opacity .5s ease;
-            overflow: hidden;
-            pointer-events: none;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://demo.themesberg.com/pixel-lite">
+<meta property="twitter:title" content="Pixel Lite - Free Bootstrap 4 UI Kit">
+<meta property="twitter:description" content="Open source and accessibility oriented Bootstrap Design System featuring over 80 premium components and 4 example pages.">
+<meta property="twitter:image" content="https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/pixel-lite-preview.jpg">
 
-        body:not(.loaded)>div.preloader {
-            opacity: 1;
-        }
+<!-- Favicon -->
+<link rel="apple-touch-icon" sizes="120x120" href="/static/assets/img/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/static/assets/img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/static/assets/img/favicon/favicon-16x16.png">
+<link rel="manifest" href="/static/assets/img/favicon/site.webmanifest">
+<link rel="mask-icon" href="/static/assets/img/favicon/safari-pinned-tab.svg" color="#ffffff">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="theme-color" content="#ffffff">
 
-        body:not(.loaded) {
-            overflow: hidden;
-        }
+<!-- Fontawesome -->
+<link type="text/css" href="/static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
 
-        body.loaded>div.preloader {
-            animation: hidePreloader .5s linear .5s forwards;
-        }
-    </style>
-    <script>
-        window.addEventListener("load", function() {
-            setTimeout(function() {
-                document.querySelector('body').classList.add('loaded');
-            }, 300);
-        });
-    </script>
+<!-- Pixel CSS -->
+<link type="text/css" href="/static/assets/css/pixel.css" rel="stylesheet">
 
-    <!-- Favicon -->
-    <link rel="icon" href="/static/assets/img/brand/favicon.png" type="image/png"><!-- Font Awesome -->
-    <link rel="stylesheet" href="/static/assets/libs/@fortawesome/fontawesome-free/css/all.min.css">
-    <!-- Quick CSS -->
-    <link rel="stylesheet" href="/static/assets/css/quick-website.css" id="stylesheet">
-
-    <!-- Specific Page CSS goes HERE  -->
-    {% block stylesheets %}{% endblock stylesheets %}
+{% block stylesheets %}{% endblock stylesheets %}
 
 </head>
+
 <body>
 
-    {% include 'includes/cookies-modal.html' %}
-    
-    {% block content %}{% endblock content %}
+    <main>
+
+        {% include 'includes/preloader.html' %}
+
+        {% block content %}{% endblock content %}
+
+    </main>
 
     {% include 'includes/scripts.html' %}
 
@@ -81,4 +81,5 @@
     {% block javascripts %}{% endblock javascripts %}
 
 </body>
+
 </html>

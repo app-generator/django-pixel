@@ -1,38 +1,31 @@
 {% extends "layouts/base-fullscreen.html" %}
 
-{% block title %} Error 404 {% endblock %} 
+{% block title %} Error 500 {% endblock %} 
 
 <!-- Specific Page CSS goes HERE  -->
 {% block stylesheets %}{% endblock stylesheets %}
 
 {% block content %}
 
-    <!-- Main content -->
-    <section>
-        <div class="container d-flex flex-column">
-            <div class="row align-items-center justify-content-center min-vh-100">
-                <div class="col-md-6 col-lg-5 col-xl-5 py-6 py-md-0">
-                    <div class="card shadow zindex-100 mb-0">
-                        <div class="card-body px-md-5 py-5">
-                            <div class="mb-5 text-center">
-
-                                <h6 class="h3">Error 404</h6>
-                                <p class="text-muted mb-0">
-                                    Server error - <a href="/">HOME</a>
-                                </p>
-                                
-                                <br />
-                                <div class="pt-4 pb-5">
-                                    <img src="/static/assets/img/svg/illustrations/maintenance.svg" 
-                                    class="img-fluid img-center" style="height: 150px;" alt="Illustration" />
-                                </div>
-    
-                            </div>
+    <!-- Section -->
+    <section class="min-vh-100 d-flex align-items-center bg-soft">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 d-flex align-items-center justify-content-center">
+                    <div class="signin-inner mt-3 mt-lg-0 bg-white shadow-soft border rounded border-light p-4 p-lg-5 w-100 fmxw-500">
+                        <div class="text-center text-md-center mb-4 mt-md-0">
+                            <h1 class="mb-0 h3">
+                              Error 500
+                            </h1>
+                            <br />
+                            <span class="font-weight-normal">
+                                Server error - please contact support.
+                            </span>                            
                         </div>
-                        <div class="card-footer text-center">
-                            <small>If the problem persists, please contact </small>
-                            <a href="/" class="small font-weight-bold">support</a>.
-                        </div>
+                        
+                        <form action="#" class="mt-4">
+                            <a href="/" class="btn btn-block btn-primary">Home</a>
+                        </form>
                     </div>
                 </div>
             </div>
