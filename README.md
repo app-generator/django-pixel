@@ -13,7 +13,7 @@
 > Links
 
 - [Django Pixel UI Kit](https://appseed.us/django/django-pixel-bootstrap-uikit) - product page
-- [Django Pixel UI Kit Demo](https://appseed.us/django/django-pixel-bootstrap-uikit) - LIVE Deploy
+- [Django Pixel UI Kit Demo](https://django-pixel-bootstrap-uikit.appseed.us) - LIVE Deploy
 
 <br />
 
