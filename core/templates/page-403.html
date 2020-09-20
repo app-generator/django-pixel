@@ -1,0 +1,45 @@
+{% extends "layouts/base-fullscreen.html" %}
+
+{% block title %} Error 404 {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+    <!-- Main content -->
+    <section>
+        <div class="container d-flex flex-column">
+            <div class="row align-items-center justify-content-center min-vh-100">
+                <div class="col-md-6 col-lg-5 col-xl-5 py-6 py-md-0">
+                    <div class="card shadow zindex-100 mb-0">
+                        <div class="card-body px-md-5 py-5">
+                            <div class="mb-5 text-center">
+
+                                <h6 class="h3">Error 403</h6>
+                                <p class="text-muted mb-0">
+                                    Access denied. Please <a href="/login.html">authenticate</a>.
+                                </p>
+                                
+                                <br />
+                                <div class="pt-4 pb-5">
+                                    <img src="/static/assets/img/svg/illustrations/illustration-15.svg" 
+                                    class="img-fluid img-center" style="height: 150px;" alt="Illustration" />
+                                </div>
+    
+                            </div>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small>If the problem persists, please contact </small>
+                            <a href="/" class="small font-weight-bold">support</a>.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}

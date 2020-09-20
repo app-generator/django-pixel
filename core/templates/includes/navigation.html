@@ -1,0 +1,47 @@
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <!-- Brand -->
+            <a class="navbar-brand" href="/">
+                <img alt="Image placeholder" src="/static/assets/img/brand/dark.svg" id="navbar-logo">
+            </a>
+            <!-- Toggler -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Collapse -->
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mt-4 mt-lg-0 ml-auto">
+                    <li class="nav-item dropdown dropdown-animate" data-toggle="hover">
+                        <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
+                        <div class="dropdown-menu dropdown-menu-single">
+                            <a href="/"             class="dropdown-item">Homepage</a>
+                            <a href="/about.html"   class="dropdown-item">About us</a>
+                            <a href="/contact.html" class="dropdown-item">Contact</a>
+                            <div class="dropdown-divider"></div>
+                            <a href="/page-login.html"    class="dropdown-item">Login</a>
+                            <a href="/page-register.html" class="dropdown-item">Register</a>
+                            <a href="/page-404.html" class="dropdown-item">Error 404</a>
+                        </div>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" 
+                           target="_blank" rel="noopener noreferrer" 
+                           href="https://github.com/app-generator/boilerplate-code-django" >Sources</a>
+                    </li>
+                </ul>
+                <!-- Button -->
+                <a class="navbar-btn btn btn-sm btn-primary d-none d-lg-inline-block ml-3" 
+                   href="{% url 'logout' %}">
+                    Logout
+                </a>
+                <!-- Mobile button -->
+                <div class="d-lg-none text-center">
+                    <a href="https://appseed.us/boilerplate-code/django-boilerplate" 
+                       target="_blank" rel="noopener noreferrer"
+                       class="btn btn-block btn-sm btn-warning">See more details</a>
+                </div>
+            </div>
+        </div>
+    </nav>

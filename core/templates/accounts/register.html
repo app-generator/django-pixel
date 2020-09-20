@@ -1,0 +1,104 @@
+{% extends "layouts/base-fullscreen.html" %}
+
+{% block title %} Register {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+    <!-- Main content -->
+    <section>
+        <div class="container d-flex flex-column">
+            <div class="row align-items-center justify-content-center min-vh-100">
+                <div class="col-md-6 col-lg-5 col-xl-5 py-6 py-md-0">
+                    <div class="card shadow zindex-100 mb-0">
+                        <div class="card-body px-md-5 py-5">
+                            <div class="mb-5">
+                                <h6 class="h3">
+                                    <a target="_blank" rel="noopener noreferrer"
+                                       class="text-primary"
+                                       href="https://appseed.us/boilerplate-code/django-boilerplate">Django Boilerplate</a> - Register
+                                </h6>
+                                <p class="text-muted mb-0">
+                                    {% if msg %}
+                                        {{ msg | safe }}
+                                    {% else %}
+                                        Add your credentials
+                                    {% endif %}
+                                </p>
+                            </div>
+                            <span class="clearfix"></span>
+                            <form method="post" action="" class="mt-4">
+
+                                {% csrf_token %}
+
+                                <div class="form-group">
+                                    <label class="form-control-label">Username</label>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text"><i data-feather="user"></i></span>
+                                        </div>
+                                        {{ form.username }}
+                                    </div>
+                                </div>
+                                <span class="text-error">{{ form.username.errors }}</span>
+
+                                <div class="form-group">
+                                    <label class="form-control-label">Email</label>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text"><i data-feather="mail"></i></span>
+                                        </div>
+                                        {{ form.email }}
+                                    </div>
+                                </div>
+                                <span class="text-error">{{ form.email.errors }}</span>
+
+                                <div class="form-group mb-0">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <div>
+                                            <label class="form-control-label">Password</label>
+                                        </div>
+                                    </div>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text"><i data-feather="key"></i></span>
+                                        </div>
+                                        {{ form.password1 }}
+                                    </div>
+                                </div>
+                                <span class="text-error">{{ form.password1.errors }}</span>
+
+                                <div class="form-group mb-0">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <div>
+                                            <label class="form-control-label">Password Check</label>
+                                        </div>
+                                    </div>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text"><i data-feather="key"></i></span>
+                                        </div>
+                                        {{ form.password2 }}
+                                    </div>
+                                </div>
+                                <span class="text-error">{{ form.password2.errors }}</span>
+
+                                <div class="mt-4">
+                                    <button type="submit" name="register" class="btn btn-block btn-primary">Sign in</button></div>
+                            </form>
+                        </div>
+                        <div class="card-footer px-md-5"><small>Already registered?</small>
+                            <a href="{% url 'login' %}" class="small font-weight-bold">Login</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}
