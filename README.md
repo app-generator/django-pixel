@@ -15,13 +15,15 @@ Pixel is compliant with the latest UI design accessibility standards and passes 
 
 <br />
 
-## Features
+## Codebase Features
 
 - SQLite Database, Django Native ORM
 - Modular design, clean codebase
 - Session-Based Authentication, Forms validation
 - Deployment scripts: Docker, Gunicorn / Nginx
 - Support via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup).
+
+<br />
 
 > Links
 
