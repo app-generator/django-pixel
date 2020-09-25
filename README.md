@@ -28,8 +28,8 @@ Pixel is compliant with the latest UI design accessibility standards and passes 
 > Links
 
 - [Django Pixel UI Kit](https://appseed.us/django/django-pixel-bootstrap-uikit) - product page
-- [Django Pixel UI Kit Demo](https://django-pixel-bootstrap-uikit.appseed.us) - LIVE Deploy
-- [Django Pixel UI Kit Docs](https://docs.appseed.us/django/django-pixel-bootstrap-uikit/), official product documentation
+- [Django Pixel UI Kit - Demo](https://django-pixel-bootstrap-uikit.appseed.us) - LIVE Deployment
+- [Django Pixel UI Kit - Docs](https://docs.appseed.us/django/django-pixel-bootstrap-uikit/) - Product documentation
 
 <br />
 
