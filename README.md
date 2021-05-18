@@ -1,12 +1,12 @@
-# [Django](https://appseed.us/boilerplate-code/django-boilerplate) Pixel Lite
+# [Django Pixel Lite](https://appseed.us/django/django-pixel-bootstrap-uikit)
 
-Open-Source **Django** starter coded with basic modules, database, ORM and deployment scripts on top of **Pixel Lite** UI Kit, a fully responsive and modern Bootstrap 4 UI Kit that will help you build creative and professional websites.
+Open-Source **Django** starter coded with basic modules, database, ORM and deployment scripts on top of **[Pixel Lite](https://docs.appseed.us/content/bootstrap-template/pixel-lite-template)** UI Kit, a fully responsive and modern Bootstrap 4 UI Kit that will help you build creative and professional websites. The Django codebase is provided with database, ORM, authentication, and deployment scripts. 
 
 <br />
 
 > Features
 
-- UI Kit: **Pixel Lite** (Free Version) by **Themesberg**
+- UI Kit: **[Pixel Lite](https://docs.appseed.us/content/bootstrap-template/pixel-lite-template)** (Free Version) by **Themesberg**
 - SQLite Database, Django Native ORM
 - Modular design, clean codebase
 - Session-Based Authentication, Forms validation
@@ -18,7 +18,8 @@ Open-Source **Django** starter coded with basic modules, database, ORM and deplo
 > Links
 
 - [Django Pixel Lite](https://appseed.us/django/django-pixel-bootstrap-uikit) - product page
-- [Django Pixel Lite - Demo](https://django-pixel-lite.appseed-srv1.com/) - LIVE Deployment
+- [Django Pixel Lite](https://django-pixel-lite.appseed-srv1.com/) - LIVE Deployment
+- [Django Pixel Lite](https://docs.appseed.us/products/django-apps/pixel-lite) - product documentation
 
 <br />
 
@@ -216,4 +217,4 @@ Visit `http://localhost:8001` in your browser. The app should be up & running.
 <br />
 
 ---
-[Django](https://appseed.us/boilerplate-code/django-boilerplate) Pixel Lite - Provided by **AppSeed** [App Generator](https://appseed.us/app-generator).
+[Django Pixel Lite](https://appseed.us/django/django-pixel-bootstrap-uikit) - Provided by **AppSeed** [App Generator](https://appseed.us/app-generator).
