@@ -1,15 +1,15 @@
 {
-    "name": "django-pixel-bootstrap-uikit",
+    "name": "django-pixel-lite",
     "mastertemplate": "boilerplate-code-django",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Template project - Django Boilerplate Code",
     "scripts": {},
     "repository": {
         "type": "git",
-        "url": "https://github.com/app-generator/django-pixel-bootstrap-uikit"
+        "url": "https://github.com/app-generator/django-pixel-lite"
     },
     "bugs": {
-        "url": "https://github.com/app-generator/django-pixel-bootstrap-uikit/issues",
+        "url": "https://github.com/app-generator/django-pixel-lite/issues",
         "email": "support@appseed.us"
     },
     "author": "AppSeed App Generator <support@appseed.us> (https://appseed.us)",

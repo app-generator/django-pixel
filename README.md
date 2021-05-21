@@ -34,7 +34,7 @@ PRO versions include **Premium UI Kits**, Lifetime updates and **24/7 LIVE Suppo
 <br />
 <br />
 
-![Django Pixel Lite - Template project provided by AppSeed.](https://raw.githubusercontent.com/app-generator/django-pixel-bootstrap-uikit/master/media/django-pixel-bootstrap-uikit-screen.png)
+![Django Pixel Lite - Template project provided by AppSeed.](https://raw.githubusercontent.com/app-generator/django-pixel-lite/master/media/django-pixel-bootstrap-uikit-screen.png)
 
 <br />
 
@@ -42,8 +42,8 @@ PRO versions include **Premium UI Kits**, Lifetime updates and **24/7 LIVE Suppo
 
 ```bash
 $ # Get the code
-$ git clone https://github.com/app-generator/django-pixel-bootstrap-uikit.git
-$ cd django-pixel-bootstrap-uikit
+$ git clone https://github.com/app-generator/django-pixel-lite.git
+$ cd django-pixel-lite
 $
 $ # Virtualenv modules installation (Unix based systems)
 $ virtualenv env
@@ -151,8 +151,8 @@ The application can be easily executed in a docker container. The steps:
 > Get the code
 
 ```bash
-$ git clone https://github.com/app-generator/django-pixel-bootstrap-uikit.git
-$ cd django-pixel-bootstrap-uikit
+$ git clone https://github.com/app-generator/django-pixel-lite.git
+$ cd django-pixel-lite
 ```
 
 > Start the app in Docker

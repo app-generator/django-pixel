@@ -1,6 +1,12 @@
 # Change Log
 
-## [1.0.1] 2020-01-12
+## [1.0.2] 2021-05-21
+### Improvements
+
+- Bump UI: [Jinja Pixel Lite](https://github.com/app-generator/jinja-pixel-lite) v1.0.2 / Pixel Lite v4.0.0
+- Codebase: [Django Boilerplate](https://github.com/app-generator/boilerplate-code-django) v1.0.4
+
+## [1.0.1] 2021-01-12
 ### Improvements
 
 - Bump UI: [Pixel Lite](https://github.com/themesberg/pixel-bootstrap-ui-kit) v3.1.2
