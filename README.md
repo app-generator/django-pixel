@@ -1,6 +1,6 @@
 # [Django Pixel Lite](https://appseed.us/django/django-pixel-bootstrap-uikit)
 
-Open-Source **Django** starter coded with basic modules, database, ORM and deployment scripts on top of **[Pixel Lite](https://docs.appseed.us/content/bootstrap-template/pixel-lite-template)** UI Kit, a fully responsive and modern Bootstrap 4 UI Kit that will help you build creative and professional websites. The Django codebase is provided with database, ORM, authentication, and deployment scripts. 
+Open-Source **Django** starter coded with basic modules, database, ORM and deployment scripts on top of **[Pixel Lite](https://docs.appseed.us/content/bootstrap-template/pixel-lite-template)** UI Kit, a fully responsive and modern **Bootstrap 5 UI Kit** that will help you build creative and professional websites. The Django codebase is provided with database, ORM, authentication, and deployment scripts. 
 
 <br />
 
@@ -23,18 +23,7 @@ Open-Source **Django** starter coded with basic modules, database, ORM and deplo
 
 <br />
 
-## Want more? Go PRO!
-
-PRO versions include **Premium UI Kits**, Lifetime updates and **24/7 LIVE Support** (via [Discord](https://discord.gg/fZC6hup))
-
-| [Django Datta PRO](https://appseed.us/admin-dashboards/django-dashboard-dattaable-pro) | [Django Material PRO](https://appseed.us/admin-dashboards/django-dashboard-material-pro) | [Django Volt PRO](https://appseed.us/admin-dashboards/django-dashboard-volt-pro) |
-| --- | --- | --- |
-| [![Django Datta PRO](https://raw.githubusercontent.com/app-generator/django-dashboard-dattaable-pro/master/media/django-dashboard-dattaable-pro-screen.png)](https://appseed.us/admin-dashboards/django-dashboard-dattaable-pro) | [![Django Material PRO](https://raw.githubusercontent.com/app-generator/django-dashboard-material-pro/master/media/django-dashboard-material-pro-screen.png)](https://appseed.us/admin-dashboards/django-dashboard-material-pro) | [![Django Volt PRO](https://raw.githubusercontent.com/app-generator/django-dashboard-volt-pro/master/media/django-dashboard-volt-pro-screen.png)](https://appseed.us/admin-dashboards/django-dashboard-volt-pro)
-
-<br />
-<br />
-
-![Django Pixel Lite - Template project provided by AppSeed.](https://raw.githubusercontent.com/app-generator/django-pixel-lite/master/media/django-pixel-bootstrap-uikit-screen.png)
+![Django Pixel Lite - Template project provided by AppSeed](https://user-images.githubusercontent.com/51070104/119159649-1fea2f00-ba60-11eb-9781-0adaffaa197a.png)
 
 <br />
 
