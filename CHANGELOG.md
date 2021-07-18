@@ -6,7 +6,7 @@
 - Added scripts to recompile the SCSS files
     - `core/static/assets/` - gulpfile.js
     - `core/static/assets/` - package.json
-- `Update README` - [Recompile SCSS](https://github.com/app-generator/flask-pixel-lite#recompile-css) (new section)
+- `Update README` - [Recompile SCSS](https://github.com/app-generator/django-pixel-lite#recompile-css) (new section)
 
 ## [1.0.2] 2021-05-21
 ### Improvements
