@@ -6,6 +6,7 @@ Open-Source **Django** starter coded with basic modules, database, ORM and deplo
 
 > Features
 
+- Up-to-date [dependencies](./requirements.txt): **Django 3.2.6 LTS**
 - UI Kit: **[Pixel Lite](https://docs.appseed.us/content/bootstrap-template/pixel-lite-template)** (Free Version) by **Themesberg**
 - SQLite Database, Django Native ORM
 - Modular design, clean codebase
@@ -98,16 +99,17 @@ The project is coded using a simple and intuitive structure presented bellow:
    |     page-500.html                     # Error 404 page
    |       *.html                          # All other HTML pages
    |
-   |-- authentication/                     # Handles auth routes (login and register)
+   |-- apps/
+   |    |-- authentication/                # Handles auth routes (login and register)
+   |    |    |
+   |    |    |-- urls.py                   # Define authentication routes  
+   |    |    |-- views.py                  # Handles login and registration  
+   |    |    |-- forms.py                  # Define auth forms  
    |    |
-   |    |-- urls.py                        # Define authentication routes  
-   |    |-- views.py                       # Handles login and registration  
-   |    |-- forms.py                       # Define auth forms  
-   |
-   |-- app/                                # A simple app that serve HTML files
-   |    |
-   |    |-- views.py                       # Serve HTML pages for authenticated users
-   |    |-- urls.py                        # Define some super simple routes  
+   |    |-- app/                           # A simple app that serve HTML files
+   |         |
+   |         |-- views.py                  # Serve HTML pages for authenticated users
+   |         |-- urls.py                   # Define some super simple routes  
    |
    |-- requirements.txt                    # Development modules - SQLite storage
    |
@@ -193,7 +195,7 @@ $ cd django-pixel-lite
 $ sudo docker-compose pull && sudo docker-compose build && sudo docker-compose up -d
 ```
 
-Visit `http://localhost:5005` in your browser. The app should be up & running.
+Visit `http://localhost:85` in your browser. The app should be up & running.
 
 <br />
 
