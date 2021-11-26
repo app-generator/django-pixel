@@ -45,7 +45,7 @@ Visit `http://localhost:85` in your browser. The app should be up & running.
 
 <br />
 
-![Django Pixel Lite - Template project provided by AppSeed](https://user-images.githubusercontent.com/51070104/119159649-1fea2f00-ba60-11eb-9781-0adaffaa197a.png)
+![Django Pixel Lite - Template project provided by AppSeed.](https://user-images.githubusercontent.com/51070104/143608934-79032f54-d4ef-411a-ba3a-51ddd1f96ee3.gif)
 
 <br />
 
