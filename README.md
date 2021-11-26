@@ -24,6 +24,27 @@ Open-Source **Django** starter coded with basic modules, database, ORM and deplo
 
 <br />
 
+## Quick Start in [Docker](https://www.docker.com/)
+
+> Get the code
+
+```bash
+$ git clone https://github.com/app-generator/django-pixel-lite.git
+$ cd django-pixel-lite
+```
+
+> Start the app in Docker
+
+```bash
+$ docker-compose pull   # download dependencies 
+$ docker-compose build  # local set up
+$ docker-compose up -d  # start the app 
+```
+
+Visit `http://localhost:85` in your browser. The app should be up & running.
+
+<br />
+
 ![Django Pixel Lite - Template project provided by AppSeed](https://user-images.githubusercontent.com/51070104/119159649-1fea2f00-ba60-11eb-9781-0adaffaa197a.png)
 
 <br />
@@ -176,28 +197,6 @@ The generated file is saved in `static/assets/css` directory.
 ## Deployment
 
 The app is provided with a basic configuration to be executed in [Docker](https://www.docker.com/), [Gunicorn](https://gunicorn.org/), and [Waitress](https://docs.pylonsproject.org/projects/waitress/en/stable/).
-
-### [Docker](https://www.docker.com/) execution
----
-
-The application can be easily executed in a docker container. The steps:
-
-> Get the code
-
-```bash
-$ git clone https://github.com/app-generator/django-pixel-lite.git
-$ cd django-pixel-lite
-```
-
-> Start the app in Docker
-
-```bash
-$ sudo docker-compose pull && sudo docker-compose build && sudo docker-compose up -d
-```
-
-Visit `http://localhost:85` in your browser. The app should be up & running.
-
-<br />
 
 ### [Gunicorn](https://gunicorn.org/)
 ---
