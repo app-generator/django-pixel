@@ -1,5 +1,10 @@
 # Change Log
 
+## [1.0.5] 2021-12-08
+### Improvements 
+
+- Bump Django Codebase to [v1.0.8](https://github.com/app-generator/boilerplate-code-django/releases)
+
 ## [1.0.4] 2021-09-07
 ### Improvements & Fixes
 

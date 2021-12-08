@@ -7,7 +7,7 @@ Open-Source **Django** starter coded with basic modules, database, ORM and deplo
 > Features
 
 - Up-to-date [dependencies](./requirements.txt): **Django 3.2.6 LTS**
-- UI Kit: **[Pixel Lite](https://docs.appseed.us/content/bootstrap-template/pixel-lite-template)** (Free Version) by **Themesberg**
+- UI Kit: **Pixel Lite** (Free Version) by **Themesberg**
 - SQLite Database, Django Native ORM
 - Modular design, clean codebase
 - Session-Based Authentication, Forms validation
@@ -19,8 +19,7 @@ Open-Source **Django** starter coded with basic modules, database, ORM and deplo
 > Links
 
 - [Django Pixel Lite](https://appseed.us/django/django-pixel-bootstrap-uikit) - product page
-- [Django Pixel Lite](https://django-pixel-lite.appseed-srv1.com/) - LIVE Deployment
-- [Django Pixel Lite](https://docs.appseed.us/products/django-apps/pixel-lite) - product documentation
+- [Django Pixel Lite](https://django-pixel.appseed-srv1.com/) - LIVE Deployment
 
 <br />
 
@@ -29,16 +28,14 @@ Open-Source **Django** starter coded with basic modules, database, ORM and deplo
 > Get the code
 
 ```bash
-$ git clone https://github.com/app-generator/django-pixel-lite.git
-$ cd django-pixel-lite
+$ git clone https://github.com/app-generator/django-pixel.git
+$ cd django-pixel
 ```
 
 > Start the app in Docker
 
 ```bash
-$ docker-compose pull   # download dependencies 
-$ docker-compose build  # local set up
-$ docker-compose up -d  # start the app 
+$ docker-compose up --build 
 ```
 
 Visit `http://localhost:85` in your browser. The app should be up & running.
@@ -53,8 +50,8 @@ Visit `http://localhost:85` in your browser. The app should be up & running.
 
 ```bash
 $ # Get the code
-$ git clone https://github.com/app-generator/django-pixel-lite.git
-$ cd django-pixel-lite
+$ git clone https://github.com/app-generator/django-pixel.git
+$ cd django-pixel
 $
 $ # Virtualenv modules installation (Unix based systems)
 $ virtualenv env
@@ -91,51 +88,49 @@ The project is coded using a simple and intuitive structure presented bellow:
 ```bash
 < PROJECT ROOT >
    |
-   |-- core/                               # Implements app logic and serve the static assets
-   |    |-- settings.py                    # Django app bootstrapper
+   |-- core/                               # Implements app configuration
+   |    |-- settings.py                    # Defines Global Settings
    |    |-- wsgi.py                        # Start the app in production
    |    |-- urls.py                        # Define URLs served by all apps/nodes
+   |
+   |-- apps/
+   |    |
+   |    |-- home/                          # A simple app that serve HTML files
+   |    |    |-- views.py                  # Serve HTML pages for authenticated users
+   |    |    |-- urls.py                   # Define some super simple routes  
+   |    |
+   |    |-- authentication/                # Handles auth routes (login and register)
+   |    |    |-- urls.py                   # Define authentication routes  
+   |    |    |-- views.py                  # Handles login and registration  
+   |    |    |-- forms.py                  # Define auth forms (login and register) 
    |    |
    |    |-- static/
    |    |    |-- <css, JS, images>         # CSS files, Javascripts files
    |    |
    |    |-- templates/                     # Templates used to render pages
-   |         |
    |         |-- includes/                 # HTML chunks and components
    |         |    |-- navigation.html      # Top menu component
    |         |    |-- sidebar.html         # Sidebar component
    |         |    |-- footer.html          # App Footer
    |         |    |-- scripts.html         # Scripts common to all pages
    |         |
-   |         |-- layouts/                  # Master pages
-   |         |    |-- base-fullscreen.html # Used by Authentication pages
-   |         |    |-- base.html            # Used by common pages
+   |         |-- layouts/                   # Master pages
+   |         |    |-- base-fullscreen.html  # Used by Authentication pages
+   |         |    |-- base.html             # Used by common pages
    |         |
-   |         |-- accounts/                 # Authentication pages
-   |         |    |-- login.html           # Login page
-   |         |    |-- register.html        # Register page
+   |         |-- accounts/                  # Authentication pages
+   |         |    |-- login.html            # Login page
+   |         |    |-- register.html         # Register page
    |         |
-   |      index.html                       # The default page
-   |     page-404.html                     # Error 404 page
-   |     page-500.html                     # Error 404 page
-   |       *.html                          # All other HTML pages
+   |         |-- home/                      # UI Kit Pages
+   |              |-- index.html            # Index page
+   |              |-- 404-page.html         # 404 page
+   |              |-- *.html                # All other pages
    |
-   |-- apps/
-   |    |-- authentication/                # Handles auth routes (login and register)
-   |    |    |
-   |    |    |-- urls.py                   # Define authentication routes  
-   |    |    |-- views.py                  # Handles login and registration  
-   |    |    |-- forms.py                  # Define auth forms  
-   |    |
-   |    |-- app/                           # A simple app that serve HTML files
-   |         |
-   |         |-- views.py                  # Serve HTML pages for authenticated users
-   |         |-- urls.py                   # Define some super simple routes  
+   |-- requirements.txt                     # Development modules - SQLite storage
    |
-   |-- requirements.txt                    # Development modules - SQLite storage
-   |
-   |-- .env                                # Inject Configuration via Environment
-   |-- manage.py                           # Start the app - Django default start script
+   |-- .env                                 # Inject Configuration via Environment
+   |-- manage.py                            # Start the app - Django default start script
    |
    |-- ************************************************************************
 ```
