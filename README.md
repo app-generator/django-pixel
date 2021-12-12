@@ -7,6 +7,7 @@ Open-Source **[Django](https://appseed.us/django)** starter coded with basic mod
 > Features
 
 - `Up-to-date dependencies`: **Django 3.2.6 LTS**
+- [SCSS compilation](#recompile-css) via **Gulp**
 - UI Kit: **Pixel Lite** (Free Version) by **Themesberg**
 - `DB Tools`: SQLite Database, Django Native ORM
 - Session-Based Authentication, Forms validation
