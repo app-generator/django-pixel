@@ -1,6 +1,6 @@
 # [Django Pixel Lite](https://appseed.us/django/django-pixel-bootstrap-uikit)
 
-Open-Source **Django** starter coded with basic modules, database, ORM and deployment scripts on top of **[Pixel Lite](https://docs.appseed.us/content/bootstrap-template/pixel-lite-template)** UI Kit, a fully responsive and modern **Bootstrap 5 UI Kit** that will help you build creative and professional websites. The Django codebase is provided with database, ORM, authentication, and deployment scripts. 
+Open-Source **[Django](https://appseed.us/django)** starter coded with basic modules, database, ORM and deployment scripts on top of **[Pixel Lite](https://docs.appseed.us/content/bootstrap-template/pixel-lite-template)** UI Kit, a fully responsive and modern **Bootstrap 5 UI Kit** that will help you build creative and professional websites. The Django codebase is provided with database, ORM, authentication, and deployment scripts. 
 
 <br />
 
