@@ -19,7 +19,7 @@ Open-Source **[Django](https://appseed.us/django)** starter coded with basic mod
 > Links
 
 - 👉 [Django Pixel Lite](https://appseed.us/django/django-pixel-bootstrap-uikit) - product page
-- 👉 [Django Pixel Lite](https://django-pixel.appseed-srv1.com/) - LIVE Deployment
+- 👉 [Django Pixel Lite](https://django-pixel-lite.appseed-srv1.com/) - LIVE Deployment
 - 👉 More [Django Apps](https://appseed.us/django) - provided by AppSeed 
 
 <br />
