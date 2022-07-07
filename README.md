@@ -4,6 +4,7 @@
 
 - 👉 [Django Pixel Lite](https://appseed.us/product/pixel-bootstrap/django/) - product page
 - 👉 [Django Pixel Lite](https://django-pixel-lite.appseed-srv1.com/) - LIVE Deployment
+- 👉 [Complete documentation](https://docs.appseed.us/products/django-apps/pixel-lite) - `Learn how to use and update the product`
 - ✅ [PRO Version Available](#pro-version) - `enhanced UI` and more `features`
 
 <br />
