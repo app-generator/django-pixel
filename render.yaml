@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: django-argon-dash2
+    name: django-pixel
     plan: starter
     env: python
     region: frankfurt  # region should be same as your database region.
