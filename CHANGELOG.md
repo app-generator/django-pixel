@@ -1,5 +1,17 @@
 # Change Log
 
+## [1.0.9] 2023-02-09
+### Changes
+
+- Bump UI: [Django Theme Pixel](https://github.com/app-generator/django-theme-pixel) `v1.0.3`
+- DOCS Update (readme). New sections:
+  - `How to customize the theme`
+  - Render deployment
+- Configure the project to use `home/templates`
+- Added `custom-index` sample
+- `Fix Docker` Execution
+  - `Update Settings`: ALLOWED_HOSTS, CSRF_TRUSTED_ORIGINS `sections`
+
 ## [1.0.8] 2023-01-10
 ### Changes
 
