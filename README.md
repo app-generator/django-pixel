@@ -1,6 +1,6 @@
 # [Django Pixel Bootstrap 5](https://appseed.us/product/pixel-bootstrap/django/)
 
-Open-source **Django** project crafted on top of **[Pixel Bootstrap 5](https://appseed.us/product/pixel-bootstrap/django/)**, an open-source design from `Themesberg`.
+Open-source **[Django App](https://appseed.us/apps/django/)** crafted on top of **Pixel Lite**, an open-source design from `Themesberg`.
 The product is designed to deliver the best possible user experience with highly customizable feature-rich pages. 
 
 - 👉 [Django Pixel Bootstrap 5](https://appseed.us/product/pixel-bootstrap/django/) - `Product page`
