@@ -6,7 +6,6 @@ The product is designed to deliver the best possible user experience with highly
 - 👉 [Django Pixel Bootstrap 5](https://appseed.us/product/pixel-bootstrap/django/) - `Product page`
 - 👉 [Django Pixel Bootstrap 5](https://django-pixel-lite.appseed-srv1.com/) - `LIVE Demo`
 
-<br />
 ---
 
 ## Features
