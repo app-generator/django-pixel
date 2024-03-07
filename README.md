@@ -14,7 +14,7 @@ The product is designed to deliver the best possible user experience with highly
 
 | Free Version                          | [PRO Version](https://appseed.us/product/pixel-bootstrap-pro/django/)    | [Custom Development](https://appseed.us/custom-development/) | 
 | --------------------------------------| --------------------------------------| --------------------------------------|
-| ✓ **Django 4.1.12**                   | **Everything in Free**, plus:                                        | **Everything in PRO**, plus:         |
+| ✓ **Django 4.2.9**                    | **Everything in Free**, plus:                                        | **Everything in PRO**, plus:         |
 | ✓ Best Practices                      | ✅ **Premium Bootstrap Design**                                      | ✅ **1mo Custom Development**       |  
 | ✓ Bootstrap Design                    | ✅ `Private REPO Access`                                             | ✅ **Team**: PM, Developer, Tester  |
 | ✓ `Docker`                            | ✅ OAuth - Github, Twitter                                           | ✅ Weekly Sprints                   |
