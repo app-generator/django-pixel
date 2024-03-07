@@ -1,5 +1,15 @@
 # Change Log
 
+## [1.0.11] 2024-03-05
+### Changes
+
+- Deprecate `distutils`
+  - use `str2bool`
+- Update Deps 
+  - `requirements.txt` 
+- Update [Custom Development](https://appseed.us/custom-development/) Section
+  - New Pricing: `$3,999`
+
 ## [1.0.10] 2023-10-24
 ### Changes
 
