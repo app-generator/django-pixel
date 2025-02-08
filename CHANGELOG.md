@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.0.15] 2025-02-08
+### Changes
+
+- Update Templates Folder
+- Customize the HOMEpage
+
 ## [1.0.14] 2024-12-16
 ### Changes
 
