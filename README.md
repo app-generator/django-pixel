@@ -5,7 +5,7 @@ Open-source **Django** project crafted on top of **Pixel UI**, an open-source ic
 The product is designed to deliver the best possible user experience with highly customizable feature-rich pages. 
 
 - 👉 [Django Pixel](https://app-generator.dev/product/pixel-bootstrap/django/) - `Product Page`
-- 👉 [Django Pixel](https://django-pixel-lite.appseed-srv1.com/) - `LIVE Demo` 
+- 👉 [Django Pixel](https://django-pixel.onrender.com) - `LIVE Demo` 
 - 👉 [Django Pixel Documentation](https://app-generator.dev/docs/products/django/pixel/index.html) - `Complete Information` and Support Links
   - [Getting Started with Django](https://app-generator.dev/docs/technologies/django/index.html) - a `comprehensive tutorial`
   - `Configuration`: Install Tailwind/Flowbite, Prepare Environment, Setting up the Database 

@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.0.16] 2025-02-13
+### Changes
+
+- Bump UI Version
+- Update DEMO Link - [Django Pixel](https://django-pixel.onrender.com/) 
+
 ## [1.0.15] 2025-02-08
 ### Changes
 
